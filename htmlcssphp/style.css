@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(178, 34, 34);
+}
+
+.conteudo{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo .conteudo-sobre{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.conteudo .conteudo-sobre h1{
+    font-size: 35px;
+    color: rgb(178,34,34);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conteudo .conteudo-sobre p{
+    font-size: 14px;
+    color: rgb(0,0,0);
+    text-align: justify;
+}
+
+footer .rodape-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    height: 300px;
+    background-color: rgb(178,34,34);
+}
+
+
+footer .rodape-contato h1{
+    font-size: 50px;
+    color: rgb(255,255,255);
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}
+
+footer .rodape-contato p{
+    color: rgb(255,255,255);
+    margin: 3px 0 3px 0;
+}
+
+footer .rodape-dev{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(67,84,92);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .rodape-dev p{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-weight: bold;
+}
